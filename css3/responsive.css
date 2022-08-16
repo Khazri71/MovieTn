@@ -1,0 +1,133 @@
+/*Start Variabals*/
+:root{
+    --responsive-font-size:14px;
+}
+
+/*  CSS3
+
+:-webkit-x
+:-moz-x
+x
+
+*/
+
+/*Start Utility Classes*/
+.h1-heading{
+    font-size: 38px;
+}
+
+/*End Utility Classes*/
+
+/*End Variabales*/
+
+/*Container Small*/
+@media(max-width : 768px){
+/* .container{
+
+} */
+
+.header .header-content{
+   margin: auto;
+}
+.header .header-content .main-navbar > li > a{
+    padding: 4px;
+    font-size: var(--responsive-font-size);
+}
+.header .header-content .main-navbar > li > a::before , .header .header-content .main-navbar > li > a::after{
+    height: 2px;
+}
+
+/*Start Section Home*/
+
+/*End Section Home*/
+
+/* Start Aside Menu */
+
+.header .main-navbar .links-group {
+   flex-direction: column;
+   gap:0px;
+   /* margin-top: 490px;  */
+}
+.header .main-navbar .links-group ul li  {
+    margin: 10px 0px;
+   
+}
+
+.header .main-navbar .links-group {
+   top: 250px;
+}
+
+.header .main-navbar > li{
+    transition: var(--main-transition-duration);
+}
+.header .main-navbar > li:hover .links-group{
+    z-index: 1;
+    opacity: 1;
+    top: 160px;
+}
+/* End Aside Menu */
+
+
+/* Start Section Articles */
+.articles .articles-content .boxes{
+    flex-direction: column;
+    gap: 0px;
+
+}
+.articles .articles-content .boxes .box{
+    margin: var(--main-margin-y);
+
+}
+
+/* End Section Articles */
+
+/* Start Section Gallery */
+.gallery .carts{
+    flex-direction: column;
+}
+
+
+/* End Section Gallery */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Container Medium*/
+@media(min-width : 992px){
+    .container{
+        width: 970px;
+    }
+}
+/*Container Large*/
+@media(min-width : 1200px){
+    .container{
+        width:1170px;
+    }
+}
