@@ -89,6 +89,39 @@ x
 
 /* End Section Gallery */
 
+
+/* Start Section Movies */
+.movies .movies-carts{
+    flex-direction: column;
+}
+
+/* End Section Movies */
+
+
+/* Start Section Lastest Reviews and Rating */
+.reviews .reviews-carts{
+    flex-direction: column;
+    
+}
+
+.reviews .reviews-carts .reviews-cart{
+    margin: 40px 20px;
+}
+
+/****************************/
+
+
+
+/* End Section Lastest Reviews and Rating */
+
+
+/* Start Section Members */
+.members .members-carts{
+    flex-direction: column;
+}
+
+/* End Section Members */
+
 }
 
 
