@@ -45,6 +45,7 @@ x
 
 .header .main-navbar .links-group {
    flex-direction: column;
+   margin-top: 50px;
    gap:0px;
    /* margin-top: 490px;  */
 }
@@ -71,7 +72,9 @@ x
 /* Start Section Articles */
 .articles .articles-content .boxes{
     flex-direction: column;
+    margin-top: 50px;
     gap: 0px;
+    
 
 }
 .articles .articles-content .boxes .box{
@@ -84,6 +87,7 @@ x
 /* Start Section Gallery */
 .gallery .carts{
     flex-direction: column;
+    margin-top: 50px;
 }
 
 
@@ -93,6 +97,7 @@ x
 /* Start Section Movies */
 .movies .movies-carts{
     flex-direction: column;
+    margin-top: 50px;
 }
 
 /* End Section Movies */
@@ -101,6 +106,7 @@ x
 /* Start Section Lastest Reviews and Rating */
 .reviews .reviews-carts{
     flex-direction: column;
+    margin-top: 50px;
     
 }
 
@@ -118,10 +124,94 @@ x
 /* Start Section Members */
 .members .members-carts{
     flex-direction: column;
+    margin-top: 50px;
 }
 
 /* End Section Members */
 
+/* Start Section Categories*/
+.categories .categories-carts{
+    flex-direction: column;
+    margin-top: 50px;
+}
+/* End Section Categories*/
+
+/* Start Section About us*/
+.about-us .about-us-content{
+    flex-direction: column;
+    margin-top: 100px;
+}
+.about-us .about-us-content .image-content img{
+    display: none;
+}
+/* End Section About us*/
+
+
+/* Start Section Top Videos */
+.videos .video-content{
+    flex-direction: column;
+}
+/* Start Section Events */
+.events .events-content{
+    flex-direction: column;
+    margin-top: 50px;
+}
+.events .events-content .image-content img{
+    display: none;
+}
+
+/* End Section Events  */
+
+/* Start Section Trailers Videos */
+.videos .video-content h3 , .videos .video-content p {
+    display: block;
+}
+
+.videos .video-content{
+  display: inline-block;
+  padding: 5px ;
+  width: 100%;
+  margin-bottom: 4px;
+}
+ 
+/* End Section Trailers Videos */
+
+/* Start Section Pricing Plans */
+
+.pricing .pricing-carts{
+      flex-direction: column;
+    
+}
+.pricing .pricing-carts .pricing-cart:first-child{
+    margin-bottom: 90px;
+}
+.pricing .pricing-carts .pricing-cart:last-child{
+    margin-top: 40px;
+}
+/* End Section Pricing Plans */
+
+/* Start Section Statistics */
+.statistics .statistics-carts{
+    flex-direction: column;
+    margin-top: 80px;
+}
+/* End Section Statistics */
+
+/* Start Contact us */
+.contact-us-content form{
+    margin: 80px auto 30px;
+}
+/* End Contact us */
+
+
+/* Start Section Footer */
+.footer .footer-content{
+    flex-direction: column;
+
+}
+
+
+/* End Section Footer */
 }
 
 
