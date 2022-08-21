@@ -669,6 +669,8 @@ a{
 
     padding: var(--main-section-padding-y);
     border-top: 2px solid var(--main-color-8);
+
+    position: relative;
 }
 
 .members .members-carts{
@@ -1011,13 +1013,15 @@ a{
     background-position: center; 
     background-color: rgba(0, 0, 0, 0.4); */
 
+    position: relative;
+
 }
 
 .events .events-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .events .events-content .image-content img{
     width:400px;
@@ -1157,6 +1161,7 @@ a{
     justify-content: space-between;
     align-items: center;
     margin-top: 140px;
+ 
   
 }
 .pricing .pricing-carts .pricing-cart{
@@ -1474,9 +1479,30 @@ footer .footer-content .info-content-2{
 
 /* End Section Footer */
 
+/* Start Decoration*/
 
+.lines{
+   position: absolute;
+   width:150px;
+   height: 150px;
+   background-image: url(../images/dots.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   z-index: -2;
+  
+}
 
+.lines-top{
+    top:210px;
+    left:0px;
+}
 
+.lines-bottom{
+    bottom: 20px;
+    right: 0px;
+}
+/* End Decoration*/
 
 /* Start Animation */
 @keyframes image-change {
