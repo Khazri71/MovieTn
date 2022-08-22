@@ -17,7 +17,7 @@
     --main-color-03:#F2CB05; 
     --main-color-04:#F2B705; 
     --main-color-05:#F2B705;
-    --main-color-06: #000180; 
+    --main-color-06: #0008B2;
     --main-color-07: #0001CC; 
 
 
@@ -30,7 +30,6 @@
     --main-margin-x:0px 10px;
     --main-transition-duration: 0.4s;
 }
-
 
 
 
@@ -168,19 +167,13 @@ a{
 /*Start Section Header*/
 .header{
     background-color: var(--main-color-05);
-    /* position: sticky;
-    top: 0px;
-    z-index: 1;  */
 }
 .header .header-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     padding:var(--main-padding-y);
-
     position: relative;
-
 }
 .header .header-content .main-navbar{
     display: flex;
@@ -389,24 +382,8 @@ a{
 
 
 /* Start Section Articles */
-/* .articles{
-    position: relative;
-
-}
-.articles::before{
-    content: "";
-    position: absolute;
-    width:100%;
-    height: 700px;
-    background-color:var(--main-color-9);
-    top: 0px;
-    transform: skewY(6deg);
-    z-index: -1;
-} */
 
 .articles{
-
-    /* padding: var(--main-section-padding-y); */
     position: relative;
     padding: var(--main-section-padding-y);
     
@@ -460,6 +437,8 @@ a{
 .gallery{
     padding: var(--main-section-padding-y);
     border-top: 2px solid var(--main-color-8);
+
+    position: relative;
  
 }
 .gallery .carts{
@@ -474,7 +453,6 @@ a{
   padding:10px 10px 5px;
   margin: 20px;
   overflow:hidden;
-  /* box-shadow: 0px 50px 50px 0px rgba(0, 0 , 0 ,0.4); */
 }
 .gallery .carts .cart img{
     width: 100%; 
@@ -505,7 +483,6 @@ a{
  .movies .movies-carts .movies-cart{
    background-color: #F2F4F2; 
    flex-grow: 1;
-    /* padding:10px 10px 5px; */
     padding: 15px;
     margin: 20px;
   }
@@ -556,7 +533,7 @@ a{
     bottom: 0px;
     right: 0px;
     border-style: solid;
-    border-width: 0px 0px 90px 350px;
+    border-width: 0px 0px 90px 350px; 
     border-color: transparent transparent  #F2F4F2 transparent; 
 
    }
@@ -691,9 +668,6 @@ a{
     transition: var(--main-transition-duration);
 }
 
-/* .members .members-carts .members-cart:hover{
-    background-color: var(--main-color-2); 
-} */
 
 .members .members-carts .members-cart::before{
     position: absolute;
@@ -730,7 +704,6 @@ a{
 }
 
 .members .members-carts .members-cart:hover::after{
-    /* z-index: -2; */
     width: 100%;
 }
 
@@ -788,6 +761,8 @@ a{
 .categories{
     padding: var(--main-section-padding-y);
     border-top: 2px solid var(--main-color-8);
+
+    position: relative;
 }
 .categories .categories-carts{
     display: flex;
@@ -897,7 +872,6 @@ a{
 /*Start Section About us*/
 .about-us{
     padding: var(--main-section-padding-y);
-
     position: relative;
 }
 
@@ -907,7 +881,6 @@ a{
     width: 100%;
     height: 100%;
     background-color:var(--main-color-06); 
-    
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -942,12 +915,7 @@ a{
 
 .about-us .about-us-content .text-content{
     display: flex;
- 
     flex-direction: column;
-
-   
-
- 
 }
 .about-us .about-us-content .text-content .cart-content{
     background-color: var(--main-color-6);
@@ -983,8 +951,8 @@ a{
     height: 0%;
     background-color: #EEBB34;
 
-    left: 0px;
-    bottom: 0px;
+    left: -1px;
+    bottom: -1px;
   
      
      transition: var(--main-transition-duration);
@@ -1100,8 +1068,9 @@ a{
     margin-top: 20px;
     padding: 13px 10px;
     border: none;
-    background-color: var(--main-color-07);
+    background-color:#0410FF;
     color: #fff;
+    cursor: pointer;
 }
 /* End Section Events */
 
@@ -1154,7 +1123,6 @@ a{
 /* Start Section Pricing Plans */
 .pricing{
      padding: var(--main-section-padding-y);
-    /* border-top: 2px solid var(--main-color-8); */
 }
 .pricing .pricing-carts{
      display: flex;
@@ -1475,6 +1443,13 @@ footer .footer-content .info-content-2{
     color: var(--main-color-1);
 }
 
+.footer .footer-content .info-content-1 .copyrights{
+    color: #c2bfbf;
+    border-top: 1px solid var(--main-color-04);
+    padding-top: 15px;
+    
+} 
+
 
 
 /* End Section Footer */
@@ -1494,7 +1469,7 @@ footer .footer-content .info-content-2{
 }
 
 .lines-top{
-    top:210px;
+    top:180px;
     left:0px;
 }
 
@@ -1574,8 +1549,6 @@ footer .footer-content .info-content-2{
         width: 100%;
         height: 100%;
     }
-
-
 }
 /* End Animation */
 

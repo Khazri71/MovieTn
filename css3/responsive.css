@@ -21,17 +21,21 @@ x
 /*End Variabales*/
 
 /*Container Small*/
-@media(max-width : 790px){
+@media(max-width : 768px){
 /* .container{
 
 } */
 
 .header .header-content{
    margin: auto;
+   flex-direction: column;
 }
+
 .header .header-content .main-navbar > li > a{
-    padding: 4px;
+    margin: 0px 10px; 
+    padding: 0px;
     font-size: var(--responsive-font-size);
+
 }
 .header .header-content .main-navbar > li > a::before , .header .header-content .main-navbar > li > a::after{
     height: 2px;
@@ -45,7 +49,7 @@ x
 
 .header .main-navbar .links-group {
    flex-direction: column;
-   margin-top: 50px;
+   margin-top: 0px;
    gap:0px;
    /* margin-top: 490px;  */
 }
@@ -74,12 +78,14 @@ x
     flex-direction: column;
     margin-top: 50px;
     gap: 0px;
-    
-
 }
 .articles .articles-content .boxes .box{
-    margin: var(--main-margin-y);
+   margin-top: 25px;
+}
 
+.header .main-navbar .links-group {
+    padding:35px 0px;
+  
 }
 
 /* End Section Articles */
@@ -99,6 +105,8 @@ x
     flex-direction: column;
     margin-top: 50px;
 }
+
+
 
 /* End Section Movies */
 
@@ -186,7 +194,7 @@ x
     margin-bottom: 90px;
 }
 .pricing .pricing-carts .pricing-cart:last-child{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 /* End Section Pricing Plans */
 
@@ -247,6 +255,7 @@ x
     .container{
         width: 970px;
     }
+
 }
 /*Container Large*/
 @media(min-width : 1200px){

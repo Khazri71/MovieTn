@@ -2,7 +2,7 @@
 //Jequery 
 //Smooth Scrolling and remove #
 
-$("#navbar header-content main-navbar li a").on("click" , function(event){
+$("a").on("click" , function(event){
     if(this.hash !== ""){
         event.preventDefault();
 
